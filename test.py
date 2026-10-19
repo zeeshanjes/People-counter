@@ -11,11 +11,11 @@ model = YOLO("yolov8n.pt")     # Download automatically first time
 # ----------------------------------------
 # DeepSORT Tracker module
 # ----------------------------------------
-tracker = DeepSort(
-    max_age=30,
-    n_init=2,
-    max_cosine_distance=0.3
-)
+# tracker = DeepSort(
+#     max_age=30,
+#     n_init=2,
+#     max_cosine_distance=0.3
+# )
 
 # ----------------------------------------
 # Open Video
