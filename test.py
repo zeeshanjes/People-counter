@@ -9,7 +9,7 @@ from deep_sort_realtime.deepsort_tracker import DeepSort
 model = YOLO("yolov8n.pt")     # Download automatically first time
 
 # ----------------------------------------
-# DeepSORT Tracker
+# DeepSORT Tracker module
 # ----------------------------------------
 tracker = DeepSort(
     max_age=30,
